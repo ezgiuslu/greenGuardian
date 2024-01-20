@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5493C5"
+        android:text="weather condition"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/informationaboutland"
+        android:layout_width="384dp"
+        android:layout_height="37dp"
+        android:background="#C56060"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:gravity="center"
+        android:text="information about land"
+        android:textColor="#4b5320"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/commands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#12601F"
+        android:text="commands"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="211dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
